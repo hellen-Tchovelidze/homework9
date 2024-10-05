@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  display: flex;
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 1920px;
+  height: 1080px;
+
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  position: relative;
+}
+
+.container_blu {
+  width: 806.5px;
+  height: 1080px;
+  background: linear-gradient(180deg, #7271ff 0%, #3433ff 100%);
+  display: flex;
+  position: relative;
+}
+
+.blubox_heading {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  margin: 100px;
+}
+.Group_icone {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px 0px 0px 0px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.heading_trivo {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 83.25px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.paragraph_div {
+  display: flex;
+  top: 313px;
+  left: 90px;
+  position: absolute;
+}
+.paragraph {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 39.96px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box {
+  display: flex;
+  position: absolute;
+  width: 482.05px;
+  height: 80px;
+  top: 496px;
+  padding: 20px 111.05px 20px 37px;
+  background-color: #ffffff;
+}
+.img {
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.img1 {
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  left: 37px;
+  position: absolute;
+}
+.img2 {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 62px;
+}
+.img3 {
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  position: absolute;
+  top: 20px;
+  left: 87px;
+}
+.img4 {
+  width: 40px;
+  height: 40px;
+  z-index: 3;
+  position: absolute;
+  top: 20px;
+  left: 112px;
+}
+.img5 {
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  position: absolute;
+  top: 20px;
+  left: 137px;
+}
+
+.icone_akar {
+  width: 24px;
+  height: 24px;
+  top: 28px;
+  left: 193px;
+  position: absolute;
+  color: #949494;
+}
+
+.report {
+  top: 25px;
+  left: 267px;
+  padding: 4px 10px 4px 10px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #4443ff;
+  position: absolute;
+}
+.bt_report {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23.31px;
+  text-align: left;
+  color: #ffffff;
+  border: none;
+  background-color: #4443ff;
+}
+.container_registrbox {
+  width: 434px;
+  height: 794px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 143px;
+  left: 1146.25px;
+}
+
+.heading_register1 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 143px;
+  left: 1153.25px;
+  gap: 16px;
+ 
+}
+.icone_ak {
+  position: absolute;
+  width: 30px;
+  height: 25.67px;
+  top: 12px;
+  left: 10px;
+}
+
+.heading_register {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 49.95px;
+  text-align: left;
+  color: #212121;
+}
+
+.paragraph_register{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 300;
+line-height: 29.97px;
+text-align: left;
+color: #949494;
+
+}
+.tex_div{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 209px;
+left: 1146.25px;
+gap: 16px;}
+
+section{
+   
+top: 250px;
+left: 1146.25px;
+position: absolute;
+gap: 20px;
+font-size: larger;
+}
+.name{
+top: 289px;
+left: 1154.25px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 33.3px;
+text-align: center;
+
+
+}
+.Email *{
+ position: absolute;
+top: 418px;
+left: 1146.25px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 33.3px;
+text-align: left;
+
+}
+
+.Password{
+top: 547px;
+left: 1146.25px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 33.3px;
+text-align: left;
+}
